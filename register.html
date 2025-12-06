@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/register.css">
+
+      <!----Favicon--->
+    <title>Register Page- JoyfulFind</title>
+</head>
+<body>
+    
+<form action="">
+    <legend>Sign Up with JoyfulFind</legend>
+<br><br>
+<label for="fullname">Full Name:</label>
+<input type="text" placeholder="Enter your full name" id="fullname" name="fullname" required>
+
+<br><br>
+<label for="username">Username:</label>
+<input type="text" placeholder="Enter your username" id="username" name="username" required>
+
+<br><br>
+<label for="email">Email:</label>
+<input type="email" placeholder="e.g., abc@email.com" id="email" name="email" required>
+
+<br><br>
+<label for="password">Password:</label> 
+<input type="password" placeholder="Type password......" id="password" name="password" required>
+
+<br><br>
+<label for="YOB">Year of Birth:</label>
+<input type="date" placeholder="Enter your year of birth" id="YOB" name="YOB" required>
+
+<br><br>
+<label for=">Date and Time">Date and Time:</label>
+<input type="datetime-local" id="appointment" name="appointment">
+
+<br><br>
+<label for="phone">Phone Number:</label>
+<input type="tel" placeholder="e.g., +1234567890" id="phone" name="phone" required>
+
+<br><br>
+<label for="nationality">Select Nationality</label>
+<!-- dropdown menu -->
+<select id="nationality" name="nationality" required>
+    <option value="">--Choose One--</option>
+    <option value="kenya">Kenyan</option>
+    <option value="usa">United States</option>
+    <option value="uk">United Kingdom</option>
+    <option value="canada">Canada</option>
+    <option value="australia">Australia</option>
+    <option value="other">Other</option>
+</select>
+
+<br><br>
+<p>Choose Your Favourite football team:</p>
+<input type="radio" id="arsenal" name="football_team" value="arsenal">
+<label for="arsenal">Arsenal</label><br>
+<input type="radio" id="manu" name="football_team" value="manu">
+<label for="manu">Manchester United</label><br>
+<input type="radio" id="liverpool" name="football_team" value="liverpool">
+<label for="liverpool">Liverpool</label><br>
+
+
+<br><br>
+<p>Select a web programming language:</p>
+<input type="checkbox" id="Java" name="Java">
+<label for="Java">Java</label><br>
+<input type="checkbox" id="PHP" name="PHP">
+<label for="PHP"> PHP</label><br>
+<input type="checkbox" id="javascript" name="javascript">
+<label for="javascript"> JavaScript</label><br>
+<input type="checkbox" id="C#" name="C#">
+<label for="C#"> C#</label><br>
+
+<br></br>
+<label for="message">Describe yourself:</label>
+<textarea id="message" name="message" rows="5" cols="50" placeholder="Tell us something about yourself..."></textarea>
+
+<br><br>
+<button type="submit">Register</button>
+</form>
+
+
+</body>
+</html>
